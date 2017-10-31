@@ -1,0 +1,14 @@
+Used  to store access and service requests
+Installed on DB2, Informix, Sybase, SQL Server, Oracle
+
+
+git config --global user.name "Bruce Fischer"
+git config --global user.email brucefischer@arvig.net
+git config --list
+git config --show-origin rerere.autoUpdate
+git log --oneline master..origin/master
+
+git add FILENAME
+git commit -m "addeded test"
+git push
+

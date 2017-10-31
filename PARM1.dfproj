@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project name="PARM1" type="db" version="2.4">
+<properties>
+<enum name="Date format" value="MM/dd/yyyy">
+<values>
+<value>MM/dd/yyyy</value>
+<value>dd/MM/yyyy</value>
+<value>yyyy/MM/dd</value>
+<value>yyyy/dd/MM</value>
+<value>MM-dd-yyyy</value>
+<value>dd-MM-yyyy</value>
+<value>yyyy-MM-dd</value>
+<value>yyyy-dd-MM</value>
+<value>MMddyyyy</value>
+<value>ddMMyyyy</value>
+<value>yyyyMMdd</value>
+<value>yyyyddMM</value>
+<value>MMddyy</value>
+<value>ddMMyy</value>
+<value>yyMMdd</value>
+<value>yyddMM</value>
+<value>DDDyyyy</value>
+<value>yyyyDDD</value>
+<value>DDDyy</value>
+<value>yyDDD</value>
+</values>
+</enum>
+<enum name="Time format" value="HH:mm:ss">
+<values>
+<value>HH:mm:ss</value>
+<value>HHmmss</value>
+</values>
+</enum>
+</properties>
+<structure>
+<resources>
+<sources/>
+<targets>
+<db alias="SAMPLE" type="server">
+<id dbms="DB2" host="localhost" name="SAMPLE" port="50001"/>
+<schemas>
+<schema alias="TARGET" name="TARGET">
+<filters/>
+</schema>
+</schemas>
+</db>
+</targets>
+</resources>
+<stereotypes/>
+</structure>
+<params/>
+<rules>
+<ruleset enabled="true" name="PARM1"/>
+</rules>
+<configs/>
+</project>

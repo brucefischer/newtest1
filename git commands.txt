@@ -14,3 +14,4 @@ git push
 
 git add . all in dir
 git add -A all stuff
+git status
